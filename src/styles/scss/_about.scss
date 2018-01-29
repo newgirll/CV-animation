@@ -1,0 +1,102 @@
+.about {
+
+}
+
+.about__container {
+    position: relative;
+
+}
+
+.about__box{
+    width: 50px;
+    position: absolute;
+    margin-top: 50px;
+    opacity: 0;
+    text-align: center;
+  
+}
+
+
+.about__box__picture--small {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    z-index: 1;
+    
+}
+
+.about__picture {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.about__text {
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+
+// ludzik
+
+.legs {
+    width: 50px;
+    text-align: center;
+}
+.legs__left {
+    width: 4px;
+    height: 50px;
+    background: black;
+    margin-bottom: 10px;
+    display: inline-block;
+   
+    
+}
+
+
+.legs__right {
+    width: 4px;
+    height: 50px;
+    background: black;
+    margin-bottom: 10px;
+    display: inline-block;
+    
+    
+}
+
+.about__box__corps{
+    width: 10px;
+    height: 20px;
+    border: 3px solid black;
+    display: inline-block;
+
+}
+
+.about__box::before {
+    content: '';
+    width: 4px;
+    height: 25px;
+    background: black;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    transform:  translate(-20px, 0) rotate(40deg);
+    z-index:0;
+
+}
+
+.about__box::after {
+    content: '';
+    width: 4px;
+    height: 25px;
+    background: black;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    transform: translate(25px, 0) rotate(-40deg);
+    z-index:0;
+
+}

@@ -48,9 +48,9 @@ gulp.task('sass', function () {
   });
 
 gulp.task('watch', function () {
-    gulp.watch('./scss/**/*.scss', ['sass'])
+    gulp.watch('./src/styles/scss/**/*.scss', ['sass'])
     gulp.watch("**/*.html").on("change", browserSync.reload);    
-    // gulp.watch('**/*.js', ['es6'])
+    gulp.watch('./src/scripts/**/*.js', ['es6'])
 });
 
 

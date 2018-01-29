@@ -5,9 +5,106 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Simple animation about my coding path</title>
+    <link rel="stylesheet" href="dist/css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Outline|Karla:400,700|Rubik+Mono+One" rel="stylesheet">
     <link rel="stylesheet" href="dist/css/main.css">
 </head>
 <body>
-    <h1>Hello</h1>
+    <section class="start">
+        <div class="container">
+            <div class="row">
+                <div class="col-12-12">
+                    <div class=" box start__box">
+                        <h1 class=" title start__title" id="header">Press the button</h1>
+                        <div class="arrow-container">
+                            <div class="arrow-container__box">
+                                <span class="arrow-container--span"></span>
+                            </div>    
+                        </div>
+                        <button class=" btn start__btn" id="btnStart">Start</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="choice">
+        <div class="container">
+            <div class="row">
+                <div class="col-12-12">
+                    <div class=" box choice__box">
+                        <h2 class="title choice__title">
+                            Which one do you choose ?
+                        </h2>
+                        <button class=" btn choice__btn" id="normalCv"> Usual </button>
+                        <button class=" btn choice__btn" id="activeCv"> Fun </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-12-12">
+                    <div class="about__container">
+                        <div class="about__box">
+                            <img class="about__box__picture--small" src="./dist/images/Kasia w kole.jpg" alt="pictureOfMe">
+                            <span class="about__box__corps"></span>
+                            <div class="legs">
+                                <div class="legs__left" id="leftLeg"></div>
+                                <div class="legs__right" id="rightLeg"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about__text">
+                        <img class="about__picture" src="./dist/images/Kasia w kole.jpg" alt="pictureOfMe">
+                        <p class="about__text--block">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste alias id ex sit dolorum accusamus neque debitis saepe. Impedit, delectus laborum. Similique non, asperiores provident animi modi inventore hic dicta.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="main-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-6-12">
+                    <div class="main-section__box">
+                        <p class="main-section__text">
+                            Coders Lab - Szkoła Programowania
+                            listopad-styczeń 2017
+                            320h
+                        </p>
+                        <p class="main-section__text">
+                            Akademia Leona Koźmińskiego
+                            2011-2013 Magister Zarządzania- specjalizacja Zarządzanie Jakością
+                        </p>
+                        <p class="main-section__text">
+                            Specjalista ds.Kierowania Ruchem Pacjentów
+                            październik 2015 - wrzesień 2017
+                            Klinika Felobologii
+                        </p>
+                        <p class="main-section__text">
+                            Asystenka ds.Administracji Personalnej
+                            październik 2014- sierpień 2015
+                            PROMOD Polska
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6-12">
+                    <div class="main-section__box">
+                            <span class='main-section__box--ball'></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous">
+</script>
+<script src="dist/js/out.js"></script>
 </body>
 </html>
