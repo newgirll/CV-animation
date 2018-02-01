@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Simple animation about my coding path</title>
+    <link rel="stylesheet" href=" https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="dist/css/reset.css">
     <link href="https://fonts.googleapis.com/css?family=Bungee+Outline|Karla:400,700|Rubik+Mono+One" rel="stylesheet">
     <link rel="stylesheet" href="dist/css/main.css">
@@ -27,7 +28,7 @@
             </div>
         </div>
     </section>
-    <section class="choice">
+    <section class="choice" id="choiceSec">
         <div class="container">
             <div class="row">
                 <div class="col-12-12">
@@ -55,7 +56,7 @@
                     </div>
                 </div>
                 <div class="figure__text">
-                    <p>Zapraszam do zapoznania się z moim CV. Na początku kilka swó o mnie. Jeśli jesteś gotowy naciśnij <a href="#">Przycisk</a></p>
+                    <p> Cześć, jestem Kasia Kowalska. Pozwól, że oprowadzę Cię po mojej ścieżce zawodowej. Zapraszam do zapoznania się z moim CV. Na początku kilka słów o mnie. Jeśli jesteś gotowy/a kliknij <a class="figure__text--link" id="startLink" href="#">tutaj</a><a class="figure__text--linkClose" id="moveLink" href="#">dalej-></a></p>
                 </div>
             </div>
         </div>
@@ -67,6 +68,7 @@
                         <img class="about__picture" src="./dist/images/Kasia w kole.jpg" alt="pictureOfMe">
                     </div>
                     <div class="col-6-12">
+                            <i class="fas fa-times"></i>
                         <p class="about__text">
                                 Dotychczas moja kariera zawodowa była
                                 związana z obszarem administracji.
