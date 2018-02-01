@@ -44,9 +44,11 @@ const startGame = () => {
     })
     moveLink.on('click', () => {
         const choice = $('#choiceSec');
-        console.log(choice);
+        const cloud = $('.figure__class--cloud');
+        console.log(cloud);
         about.css('display', 'none');
         choice.css('display', 'block');
+        cloud.text('A teraz zdecyduj, którą drogę wybierasz. Czy traditional, czy funny one');
 
     });
 
