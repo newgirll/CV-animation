@@ -8,8 +8,8 @@ const moveFigure = () => {
     box.animate({
         display: 'block',
         transform: 'rotate(100deg)',
-        top: '60%',
-        left: '30%',
+        top: '70%',
+        left: '10%',
         opacity: 1
     }, 4000)
 
@@ -35,20 +35,20 @@ const startGame = () => {
   const about = $('#aboutSec');
   const startLink = $('#startLink');
   const moveLink = $('#moveLink');
+  const cloud = $('.figure__class--cloud');
     startBtn.on('click', () => showFigure());
     startLink.on('click', () => {
         moveLink.css('opacity', '1');
         about.css('display', 'flex');
         about.css('align-items', 'flex-start');
+        cloud.text("Kiedyś moje życie kręciło się wokół piłki do siatkówki. Byłam z nią związana od 4 klasy podstawówki z małymi przerwami i wiele się od niej nauczyłam. Znam smak zarówno porażki jak i zwycięstwa. W tym okresie poznałam masę cudwnych osób i nawiązałam przyjaźnie, które trwają do dzisiaj. Siatkówa wpoiła we mnie zadasy fair-play, współpracy zespołowej.")
         
     })
     moveLink.on('click', () => {
         const choice = $('#choiceSec');
-        const cloud = $('.figure__class--cloud');
-        console.log(cloud);
         about.css('display', 'none');
         choice.css('display', 'block');
-        cloud.text('A teraz zdecyduj, którą drogę wybierasz. Czy traditional, czy funny one');
+        cloud.text('A teraz zdecyduj, którą drogę wybierasz. Traditional, czy funny one?');
 
     });
 
