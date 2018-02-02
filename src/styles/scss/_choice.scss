@@ -1,0 +1,45 @@
+.choice {
+    opacity: 0.6;
+    display: none;
+ 
+ }
+ 
+ .choice__box{
+     margin-top: 50px;   
+     background: 
+     linear-gradient(90deg, rgba(#333, 0.7) 0%, rgba(#333, 0.6) 100%),
+     url('./../images/matrix.jpg');
+     background-position: center center;
+ 
+ }
+ 
+ .choice__title {
+     color: rgb(194, 194, 39);
+     font-weight: bold;
+     margin-bottom: 40px;
+ }
+ 
+ .wrapper {
+     display: flex;
+     flex-direction: row;
+ }
+ 
+ .choice__btn {
+     background: rgb(12, 12, 88);
+     border-radius: 60%;
+     margin: 0 20px;
+     text-align: center;
+     padding: 25px 30px;
+     font-size: 15px;
+     color: transparent;
+     &:hover{
+         color: #333;
+     }
+   
+ }
+ 
+ #activeCv {
+     background: rgb(204, 26, 26);
+  
+  
+ }

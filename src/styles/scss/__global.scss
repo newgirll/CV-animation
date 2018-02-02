@@ -1,0 +1,59 @@
+$mainFontColor: #333;
+$blockColor: rgba(99, 86, 86, 0.3);
+
+
+body {
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    background: rgb(241, 219, 219)
+}
+
+.visibile {
+    display: block;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    position: relative;
+    background: $blockColor;
+    box-shadow: 1px 1px 7px rgb(99, 86, 86);
+    padding: 40px;
+    min-width: 200px;
+    width: 50%; 
+    margin: 20px auto;
+}
+
+.btn {
+    display: inline-block;
+    padding: 20px 80px;
+    font-family: 'Rubik Mono One', sans-serif;
+    color: $mainFontColor;
+    font-size: 18px;
+    text-align: center;
+    background: rgb(177, 177, 63);
+    border-radius: 15px;
+    border: none;
+    min-width: 100px;
+    cursor: pointer;
+    transition: 0.5s all;
+    &:hover {
+        color: rgb(45, 141, 141);
+    }
+}
+
+.title{
+    font-family: 'Bungee Outline', cursive;
+    font-size: 60px;
+    margin-top: 40px;
+    text-align: center;
+    min-height: 100px;
+}
+
+.header {
+    font-family: 'Rubik Mono One', sans-serif;
+   
+}

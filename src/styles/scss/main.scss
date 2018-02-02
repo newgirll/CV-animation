@@ -1,3 +1,11 @@
-h1 {
-    color: red;
-}
+@import './__global.scss';
+
+
+@import './_start.scss';
+@import './_grid.scss';
+@import './_ball.scss';
+@import './_about.scss';
+@import './_main-section.scss';
+@import './_choice.scss';
+@import './_figure.scss';
+@import './_media.scss';
